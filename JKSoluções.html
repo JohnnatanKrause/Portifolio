@@ -47,13 +47,11 @@
 
 <body class="portfolio-details-page">
 
-  <header id="header" class="header dark-background d-flex flex-column">
-    <i class="header-toggle d-xl-none bi bi-list"></i>
-
+  <header id="header" class="header dark-background d-flex flex-column"> <i
+      class="header-toggle d-xl-none bi bi-list"></i>
     <div class="profile-img">
       <img src="img/logo.jpg" alt="" class="img-fluid rounded-circle">
     </div>
-
     <a href="index.html" class="logo d-flex align-items-center justify-content-center">
       <!-- Uncomment the line below if you also wish to use an image logo -->
       <!-- <img src="assets/img/logo.png" alt=""> -->
@@ -69,14 +67,13 @@
     <nav id="navmenu" class="navmenu">
       <ul>
         <li><a href="index.html" class=""><i class=""></i>Inicio</a></li>
+        <li><a href="JKClientes.html" class=""><i class=""></i>Serviços</a></li>
+        <li><a href="JKServiços.html" class=""><i class=""></i>Potencias Clientes</a></li>
       </ul>
-
     </nav>
-
   </header>
 
   <main class="main">
-
     <!-- Page Title -->
     <div class="page-title dark-background">
       <div class="container d-lg-flex justify-content-between align-items-center">
@@ -85,37 +82,77 @@
         </nav>
       </div>
     </div><!-- End Page Title -->
+
     <!-- Services Section -->
     <section id="services" class="services section">
-      <p>A JK Soluções LTDA, com CNPJ 48.925.197/0001-04, fundada em 19/12/2022 e localizada em Cascavel,
-        Paraná, é especializada em soluções de energia e consultorias. A empresa oferece uma ampla gama de
-        serviços e produtos, incluindo instalação, manutenção e fornecimento de equipamentos para sistemas
-        de energia, como geradores e sistemas fotovoltaicos por exemplo.</p><BR><BR><BR><BR>
-
-      <div class="container section-title-Serviços" data-aos="fade-up">
-        <a href="JKServiços.html" class=""><i class="fas fa-tools">    Serviços</i></a><BR><BR>
-      </div><!-- End Section Title Serviços-->
-
-      <div class="container section-title-clientes" data-aos="fade-up">
-        <a href="JKClientes.html" class=""><i class="fas fa-users icon"> Potenciais Clientes</i></a><BR><BR>
-      </div><!-- End Section Title Clientes-->
-
-    </section><!-- /Services Section -->
-
-    <!-- Section Visão, Missão -->
-    <div class="container section-Visão-Missão" data-aos="fade-up">
-      <p><b><br><br>Missão:</b> Fornecer soluções de engenharia inovadoras e
-        eficientes, com foco na qualidade e na satisfação do cliente.
-
-        <b><br>Visão:</b> Se tornar um líder no setor de engenharia, reconhecida pela
-        excelência em seus serviços e resultados.
-      </p>
-    </div><!-- End Section Visão e Missão -->
-
+      <!-- Portfolio Details Section -->
+      <section id="portfolio-details" class="portfolio-details section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <div class="col-lg-8">
+              <div class="portfolio-details-slider swiper init-swiper">
+                <script type="application/json" class="swiper-config">
+                        {
+                          "loop": true,
+                          "speed": 600,
+                          "autoplay": {
+                            "delay": 5000
+                          },
+                          "slidesPerView": "auto",
+                          "pagination": {
+                            "el": ".swiper-pagination",
+                            "type": "bullets",
+                            "clickable": true
+                          }
+                        }
+                      </script>
+                <div class="swiper-wrapper align-items-center">
+                  <div class="swiper-slide">
+                    <img src="img/services.jpg" alt="" width="500px" height="300px">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="assets/img/JK maquinas agriculas.jpeg" alt="" width="500px" height="300px">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/services.jpg" alt="" width="500px" height="300px">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="assets/img/JK maquinas agriculas.jpeg" alt="" width="500px" height="300px">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/services.jpg" alt="" width="500px" height="300px">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="assets/img/JK maquinas agriculas.jpeg" alt="" width="500px" height="300px">
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <h3><b>JK Soluções</b></h3>
+              <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+                Fundada em 19/12/2022 e localizada em Cascavel,
+                Paraná, é especializada em soluções de energia e consultorias. A empresa oferece uma ampla gama de
+                serviços e produtos, incluindo instalação, manutenção e fornecimento de equipamentos para sistemas
+                de energia, como geradores e sistemas fotovoltaicos por exemplo.<br>
+              </div>
+            </div>
+            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+            </div>
+          </div>
+        </div>
+        <div class="container section-Visão-Missão" data-aos="fade-up">
+          <p><b>Missão:</b> Fornecer soluções de engenharia inovadoras e
+            eficientes, com foco na qualidade e na satisfação do cliente.
+  
+            <b><br>Visão:</b> Se tornar um líder no setor de engenharia, reconhecida pela
+            excelência em seus serviços e resultados.
+          </p>
+        </div><!-- End Section Visão e Missão -->
+      </section><!-- /Portfolio Details Section -->
   </main>
-
   <footer id="footer" class="footer position-relative light-background bg-warning">
-
     <div class="container">
       <div class="copyright text-center ">
         <p>© <span>Direitos autorais</span> <strong class="px-1 sitename">iPortfolio</strong> <span>Todos os direitos
@@ -124,25 +161,20 @@
         <p>© <span>Johnnatan krause</span> <strong class="px-1 sitename">Faculdade Descomplica</strong>
           <span>Desenvolvimento FrontEnd</span>
         </p>
-
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-
       </div>
     </div>
   </footer>
-
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
-
   <!-- Preloader -->
   <div id="preloader"></div>
-
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
@@ -154,10 +186,8 @@
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
-
 </body>
 
 </html>
