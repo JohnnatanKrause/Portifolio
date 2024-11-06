@@ -1268,7 +1268,22 @@ section,
 }
 
 .portfolio-details-slider .swiper-slide img {
-  width: 80%; /* Define a largura da imagem como 100% do container */
-  height: 70%; /* Define a altura da imagem para que se ajuste à largura */
+  width: 50%; /* Define a largura da imagem como 100% do container */
+  height: 50%; /* Define a altura da imagem para que se ajuste à largura */
   object-fit: cover; /* Define como a imagem deve ser redimensionada para cobrir o container */
+}
+
+#Início {
+  padding-bottom: 20px; /* Ajuste o valor para reduzir o espaço abaixo */
+}
+
+.portfolio-details {
+  margin-top: 0; /* Remove qualquer margem superior que possa estar causando o espaçamento */
+  padding-top: 0; /* Remove qualquer padding superior que esteja criando espaço extra */
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Isso vai garantir que as imagens se ajustem sem distorcer */
 }
