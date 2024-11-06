@@ -1,4 +1,4 @@
-![Faculdade Descomplica Digital](https://img.shields.io/badge/Faculdade%20Descomplica%20Digital-FF9900?style=for-the-badge&logo=dio&logoColor=white) ![Tecnólogo](https://img.shields.io/badge/Tecn%C3%B3logo-4B8BBE?style=for-the-badge&logo=bootstrap&logoColor=white) ![Engenharia](https://img.shields.io/badge/Engenharia-4B8BBE?style=for-the-badge&logo=engineering&logoColor=white) ![Dados](https://img.shields.io/badge/Dados-00A3E0?style=for-the-badge&logo=data&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Análise e Desenvolvimento de Sistemas](https://img.shields.io/badge/An%C3%A1lise%20e%20Desenvolvimento%20de%20Sistemas-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Sistema Bancário](https://img.shields.io/badge/Sistema%20Banc%C3%A1rio-30A3DC?style=for-the-badge&logo=bank&logoColor=white)
+![Faculdade Descomplica Digital](https://img.shields.io/badge/Faculdade%20Descomplica%20Digital-4CAF50?style=for-the-badge&logo=dio&logoColor=white) ![Curso EAD](https://img.shields.io/badge/Curso%20EAD-4CAF50?style=for-the-badge&logo=education&logoColor=white) ![Tecnólogo em Análise e Desenvolvimento de Sistemas](https://img.shields.io/badge/Tecn%C3%B3logo%20em%20An%C3%A1lise%20e%20Desenvolvimento%20de%20Sistemas-4CAF50?style=for-the-badge&logoColor=white)
 
 # Desafio-01: Módulo Basic FrontEnd
 
@@ -43,8 +43,10 @@ Este projeto é um **site estático de apresentação pessoal e profissional**, 
 
 1. **Página Inicial (Início)** - Apresentação do portfólio com uma introdução pessoal.
 2. **Sobre Mim** - Informações adicionais sobre o desenvolvedor.
-3. **Portfólio** - Exibição de trabalhos realizados.
-4. **Contato** - Formulário para contato (futuro desenvolvimento).
+3. **Formação Acadêmica** - Detalhes sobre a formação educacional.
+4. **Experiência Profissional** - Resumo das experiências e cargos anteriores.
+5. **Habilidades** - Tecnologias e ferramentas dominadas.
+6. **Depoimentos** - Comentários e feedback de colegas ou clientes.
 
 ---
 
@@ -62,7 +64,7 @@ Este projeto é um **site estático de apresentação pessoal e profissional**, 
 
 O código deste portfólio foi **modularizado** para garantir uma melhor organização e facilitar a manutenção futura. A modularização foi realizada da seguinte forma:
 
-- **HTML**: As seções do portfólio (Início, Sobre, Portfólio, Contato) foram separadas de forma lógica, utilizando IDs e classes para facilitar o controle e o estilo.
+- **HTML**: As seções do portfólio (Início, Sobre, Formação Acadêmica, Experiência Profissional, Habilidades, Depoimentos) foram separadas de forma lógica, utilizando IDs e classes para facilitar o controle e o estilo.
 - **CSS**: A estilização foi organizada em blocos, dividindo a parte de layouts, cores e tipografia, além de utilizar variáveis e mixins para reutilização de estilos no caso de modificações futuras.
 - **JavaScript**: Caso seja necessário adicionar interatividade ou novas funcionalidades, o código JavaScript foi estruturado para receber facilmente novos componentes, como animações ou interação com o usuário.
 
@@ -76,8 +78,7 @@ Gostaria de expressar meus sinceros agradecimentos à **professora Livia Gouvea*
 
 ---
 
-**Atenciosamente,**
-
+**Atenciosamente,**  
 **Johnnatan Krause**  
 Desenvolvedor FrontEnd  
 [LinkedIn](https://www.linkedin.com/in/johnnatan-krause)  
