@@ -1,4 +1,6 @@
-![Faculdade Descomplica Digital](https://img.shields.io/badge/Faculdade%20Descomplica%20Digital-4CAF50?style=for-the-badge&logo=dio&logoColor=white) ![Curso EAD](https://img.shields.io/badge/Curso%20EAD-4CAF50?style=for-the-badge&logo=education&logoColor=white) ![Tecnólogo em Análise e Desenvolvimento de Sistemas](https://img.shields.io/badge/Tecn%C3%B3logo%20em%20An%C3%A1lise%20e%20Desenvolvimento%20de%20Sistemas-4CAF50?style=for-the-badge&logoColor=white)
+![Faculdade Descomplica Digital](https://img.shields.io/badge/Faculdade%20Descomplica%20Digital-4CAF50?style=for-the-badge&logo=dio&logoColor=white) 
+![Curso EAD](https://img.shields.io/badge/Curso%20EAD-4CAF50?style=for-the-badge&logo=education&logoColor=white) 
+![Tecnólogo em Análise e Desenvolvimento de Sistemas](https://img.shields.io/badge/Tecn%C3%B3logo%20em%20An%C3%A1lise%20e%20Desenvolvimento%20de%20Sistemas-4CAF50?style=for-the-badge&logoColor=white)
 
 # Desafio-01: Módulo Basic FrontEnd
 
