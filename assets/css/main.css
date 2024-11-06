@@ -1269,6 +1269,6 @@ section,
 
 .portfolio-details-slider .swiper-slide img {
   width: 80%; /* Define a largura da imagem como 100% do container */
-  height: 80%; /* Define a altura da imagem para que se ajuste à largura */
+  height: 70%; /* Define a altura da imagem para que se ajuste à largura */
   object-fit: cover; /* Define como a imagem deve ser redimensionada para cobrir o container */
 }
