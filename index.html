@@ -10,7 +10,7 @@
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -75,7 +75,7 @@
 
     <nav id="navmenu" class="navmenu">
       <ul>
-        <li><a href="#hero" class="active"><i class=""></i>Inicio</a></li>
+        <li><a href="#portfolio-details" class="active"><i class=""></i>Inicio</a></li>
         <li><a href="#Sobre"><i class=""></i> Sobre</a></li>
         <li><a href="#FormaçãoAcademica"><i class=""></i> Formação Academica</a></li>
         <li><a href="#ExperiênciaProfissional"><i class=""></i> Experiência Profissional</a></li>
@@ -90,19 +90,83 @@
 
   <main class="main">
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-
-      <img src="assets/img/plano de fundo escuro.png" alt="" data-aos="fade-in" class="">
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <h2>Johnnatan Krause</h2>
-        <h4>Especialista em <span class="typed"
-            data-typed-items="Engenharia Elétrica, Instalações Elétricas, HTML, CSS  , JAVASCRIPT, PYTHON"></span><span
-            class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span
-            class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></h5>
+
+        <div class="row gy-2">
+
+          <div class="col-lg-10">
+            <div class="portfolio-details-slider swiper init-swiper">
+
+              <script type="application/json" class="swiper-config">
+                        {
+                          "loop": true,
+                          "speed": 600,
+                          "autoplay": {
+                            "delay": 5000
+                          },
+                          "slidesPerView": "auto",
+                          "pagination": {
+                            "el": ".swiper-pagination",
+                            "type": "bullets",
+                            "clickable": true
+                          }
+                        }
+                      </script>
+
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/hero-bg.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/JK e EK cataratas 2.jpg" alt="">
+                </div>
+
+
+                <div class="swiper-slide">
+                  <img src="assets/img/JK e EK.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/JK e LK.jpeg" alt="">
+                </div>
+
+
+                <div class="swiper-slide">
+                  <img src="assets/img/JK EK e LK 1.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/JK EK e LK 2.jpg" alt="">
+                </div>
+                
+              </div>
+              <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <h2>Johnnatan Krause</h2>
+                <h4><span class="typed"
+                    data-typed-items="36 Anos, Paraense, Casado com Érika Krause, Pai da Lorena Krause, Ciclista,Estudante de Programação, Engenheiro Eletricista"></span><span
+                    class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span
+                    class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></h5>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+          <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+          </div>
+        </div>
+       
       </div>
-    </section><!-- /Hero Section -->
+    
+    </section><!-- /Portfolio Details Section -->
+
+
+
+      
+    
 
  <!-- Page Title -->
  <div id="Sobre" class="page-title dark-background">
@@ -419,7 +483,7 @@
 
 <!-- Skills Section -->
 <section id="skills" class="skills section light-background">
-
+  <img src="assets/img/plano de fundo escuro.png" alt="" data-aos="fade-in" class="">
   <br><br><h5>Transformando desafios em soluções inovadoras, unindo engenharia elétrica e tecnologia para um futuro mais
     eficiente</h5><br>
   <br><br>
