@@ -1283,7 +1283,7 @@ section,
 }
 
 .swiper-slide img {
-  width: 100%;
+  width: 80%;
   height: auto;
   object-fit: cover; /* Isso vai garantir que as imagens se ajustem sem distorcer */
 }
