@@ -1287,3 +1287,16 @@ section,
   height: auto;
   object-fit: cover; /* Isso vai garantir que as imagens se ajustem sem distorcer */
 }
+
+.portfolio-details-slider .swiper-slide {
+  display: flex;              /* Usa flexbox para centralizar o conteúdo */
+  justify-content: center;    /* Centraliza horizontalmente */
+  align-items: flex-start;        /* Centraliza verticalmente */
+  height: 1000px;              /* Define uma altura fixa para o slide */
+}
+
+.portfolio-details-slider .swiper-slide img {
+  max-width: 50%;           /* Garante que a imagem não ultrapasse a largura do slide */
+  max-height: 50%;          /* Garante que a imagem não ultrapasse a altura do slide */
+  object-fit: contain;        /* Redimensiona a imagem para caber dentro do slide, mantendo a proporção */
+}
