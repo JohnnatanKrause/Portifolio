@@ -17,6 +17,8 @@ O projeto foi criado com base no template **"Portfolio"**, um modelo de código 
 
 **Desenvolvedor:** Johnnatan Krause
 
+**Confira o SITE aqui!** [Portfolio Pesoal](https://johnnatankrause.github.io/Portifolio/)
+
 ---
 
 ## Objetivos e Funcionalidades
