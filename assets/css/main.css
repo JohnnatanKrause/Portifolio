@@ -1300,3 +1300,30 @@ section,
   max-height: 50%;          /* Garante que a imagem não ultrapasse a altura do slide */
   object-fit: contain;        /* Redimensiona a imagem para caber dentro do slide, mantendo a proporção */
 }
+
+#livros .card {
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease;
+}
+
+#livros .card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#livros .card-img-top {
+  max-width: 150px; /* Define a largura máxima para 150px (ajuste conforme necessário) */
+  max-height: 200px; /* Define a altura máxima para 200px (ajuste conforme necessário) */
+  width: auto;       /* Permite que a largura se ajuste automaticamente */
+  height: auto;      /* Permite que a altura se ajuste automaticamente */
+  object-fit: contain; /* Redimensiona a imagem para caber dentro da área, mantendo a proporção */
+}
+
+#livros .card-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+#livros .card-text {
+  font-size: 1rem;
+}
